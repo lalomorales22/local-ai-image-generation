@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # FLUX Studio - Quick Launch
-# https://github.com/lalomorales22/flux-studio
+# https://github.com/lalomorales22/local-ai-image-generation
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"

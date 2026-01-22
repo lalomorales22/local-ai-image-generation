@@ -49,8 +49,8 @@ A sleek, local AI image generation app powered by [FLUX.2 Klein](https://ollama.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/lalomorales22/flux-studio.git
-cd flux-studio
+git clone https://github.com/lalomorales22/local-ai-image-generation.git
+cd local-ai-image-generation
 ```
 
 ### 2. Run the start script
@@ -108,21 +108,21 @@ To start the app by simply typing `flux` in your terminal:
 
 ```bash
 # For zsh (default on macOS)
-echo 'alias flux="/path/to/flux-studio/flux"' >> ~/.zshrc
+echo 'alias flux="/path/to/local-ai-image-generation/flux"' >> ~/.zshrc
 source ~/.zshrc
 
 # For bash
-echo 'alias flux="/path/to/flux-studio/flux"' >> ~/.bashrc
+echo 'alias flux="/path/to/local-ai-image-generation/flux"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Replace `/path/to/flux-studio` with the actual path where you cloned the repo.
+Replace `/path/to/local-ai-image-generation` with the actual path where you cloned the repo.
 
 ### Option 2: Add to PATH
 
 ```bash
 # Create a symlink in /usr/local/bin
-sudo ln -s /path/to/flux-studio/flux /usr/local/bin/flux
+sudo ln -s /path/to/local-ai-image-generation/flux /usr/local/bin/flux
 ```
 
 Now you can start the app from anywhere:
@@ -166,7 +166,7 @@ FLUX.2 Klein excels at:
 ## Project Structure
 
 ```
-flux-studio/
+local-ai-image-generation/
 ├── server/
 │   └── index.js          # Express backend with Ollama integration
 ├── client/

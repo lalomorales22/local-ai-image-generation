@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # FLUX Studio - Start Script
-# https://github.com/lalomorales22/flux-studio
+# https://github.com/lalomorales22/local-ai-image-generation
 
 set -e
 
