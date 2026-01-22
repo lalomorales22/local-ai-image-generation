@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Generated images (optional - remove this line to include images)
+public/images/*.png
+
+# Gallery data (optional - remove to include your gallery)
+gallery.json
+
+# Build output
+client/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.tmp
+*.temp
+
+# Claude
+.claude/
