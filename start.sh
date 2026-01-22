@@ -19,8 +19,8 @@ cd "$SCRIPT_DIR"
 
 echo ""
 echo -e "${BOLD}┌─────────────────────────────────────┐${NC}"
-echo -e "${BOLD}│         ✦ FLUX Studio ✦            │${NC}"
-echo -e "${BOLD}│     Local AI Image Generation      │${NC}"
+echo -e "${BOLD}│         ✦ FLUX Studio ✦             │${NC}"
+echo -e "${BOLD}│     Local AI Image Generation       │${NC}"
 echo -e "${BOLD}└─────────────────────────────────────┘${NC}"
 echo ""
 
